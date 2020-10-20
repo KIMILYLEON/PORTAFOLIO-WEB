@@ -1,0 +1,56 @@
+.intereses { background-color:purple;
+  display:inline;
+}
+
+	.tinteres td{
+  padding : 40px, 0px,0px,0px;
+}
+
+
+	.habilidades td{
+  padding : 40px, 0px,0px,0px;
+}
+
+body{
+			background-color: #FEDFFC!important;
+		}
+
+		.comentarios{
+			width: 499px;
+			
+		}
+
+		.comentarios .comentario{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.comentarios .comentario p{
+			margin: 0 0 10px 0;
+		}
+
+		.burbuja{
+			position: relative;
+			background-color: #E1AFDE;
+			padding: 20px;
+			color: #222;
+			border-radius: 9px;
+			margin-left: 20px;
+		}
+
+		.burbuja:after{
+			content: "";
+			display: block;
+			position: absolute;
+
+			top: 150px;
+			margin-left: -35px;
+
+			width: 0;
+			height: 0;
+			border-top: 8px solid transparent;
+			border-bottom: 8px solid transparent;
+
+			border-right: 15px solid #E1AFDE;
+		}
+
